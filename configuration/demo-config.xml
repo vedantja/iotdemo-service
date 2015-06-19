@@ -23,7 +23,7 @@
     <final>true</final>
   </property> 
   
-  <property require-input="true">
+  <!--<property require-input="true">
     <name>demo.git_username</name>
     <value></value>
     <description>Github username. Do NOT enter your email address</description>
@@ -34,9 +34,9 @@
     <value></value>
     <property-type>PASSWORD</property-type>
     <description>Github password</description>
-  </property> 
+  </property>--> 
       
-  <!-- <property require-input="false">
+  <property require-input="false">
     <name>demo.start_script</name>
     <value>/root/sedev/demo-artifacts/storm_demo_2.2/storm_demo/rundemo.sh via-ambari</value>
     <description>Script to run while starting demo (optional)</description>
@@ -54,7 +54,7 @@
     <name>demo.stop_script</name>
     <value>/root/sedev/demo-artifacts/storm_demo_2.2/storm_demo/setup/bin/stop_demo.sh</value>
     <description>Script to stop demo (required)</description>
-  </property>   -->
+  </property> 
 
   <property>
     <name>demo.log</name>
